@@ -40,9 +40,8 @@ layout: nil
     <div data-role="page" data-theme="a" class="main-page">
 
       <div class="header" data-role="header" data-theme="a" data-position="inline">
-      <div><h1>
-        <a href="{{ site.baseurl }}/">{{site.title}}</a>
-        </h1>
+      <div>
+        <a href="{{ site.baseurl }}/">{% asset {{site.logo.image}} alt="{{ site.logo.info }}" %}</a>
       </div>
         <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
       </div>

@@ -18,7 +18,7 @@ baseurl:
 # Configuration for site
 title: CoNEXT 2021 Interdisciplinary Workshop on (de)Centralization in the Internet (IWCI)
 logo:
-  image: tbd.jpg
+  image: iwci-logo.png
   info: Virtual
 
 # Google Analytics tracking
