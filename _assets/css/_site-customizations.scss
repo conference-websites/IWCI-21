@@ -1,0 +1,727 @@
+/* Conference logo in the mobile header. */
+.header {
+    background-color: #ffffff !important;
+    border-width: 0px;
+}
+
+.header img {
+    height : 100px;
+}
+
+.header .ui-btn {
+    right: 15px;
+    top: 30px;
+}
+
+/* main content */
+
+.border {
+    border: 1px solid #BBB;
+    margin-top: 2em;
+}
+
+.main-page {
+    overflow: visible !important;
+}
+
+/* Content container. */
+.ui-content {
+    padding: 1em 0px 1em 0px;
+    //max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The left side menu */
+.leftnav {
+    float: left;
+    text-align: left;
+    width: 25%;
+    max-width: 300px;
+    margin: 0px 1px 20px 20px;
+    /* padding-bottom: 120px; /* prevent menu from being hidden by sponsor ticker tape */
+    position: absolute;
+    left: 0;
+    clip: initial;
+    background-image: none;
+}
+
+/* Conf logo in the menu. */
+.leftnav img {
+    padding: 0px;
+    display: inline;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom:2em;
+}
+
+.leftnav .navgroup {
+    padding: 0px;
+    margin: -1px 0px;
+    border-radius: 0px;
+}
+
+.leftnav .subnav a {
+    padding-left: 30px;
+}
+
+.leftnav .ui-listview h4 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.leftnav .ui-listview .ui-btn {
+    font-size: 1em;
+    font-weight: 700;
+    cursor: default;
+}
+
+.leftnav .ui-listview .subnav .ui-btn {
+    font-size: 1em;
+    font-weight: 500;
+    cursor: default;
+}
+
+.leftnav .ui-listview .navselected a {
+    color: $site-colors-hfont !important;
+    background-color: $site-colors-highlight;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( $site-colors-highlight /*{c-bup-background-start}*/), to( $site-colors-highlight /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( $site-colors-highlight /*{c-bup-background-start}*/, $site-colors-highlight /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image:    -moz-linear-gradient( $site-colors-highlight /*{c-bup-background-start}*/, $site-colors-highlight /*{c-bup-background-end}*/); /* FF3.6 */
+    background-image:     -ms-linear-gradient( $site-colors-highlight /*{c-bup-background-start}*/, $site-colors-highlight /*{c-bup-background-end}*/); /* IE10 */
+    background-image:      -o-linear-gradient( $site-colors-highlight /*{c-bup-background-start}*/, $site-colors-highlight /*{c-bup-background-end}*/); /* Opera 11.10+ */
+    background-image:         linear-gradient( $site-colors-highlight /*{c-bup-background-start}*/, $site-colors-highlight /*{c-bup-background-end}*/);
+    border-color: $site-colors-highlight;
+}
+
+img.photo-left {
+	/*padding:9px;
+	border:0px solid #cccccc;*/
+	margin-left:0px;
+	margin-right:10px;
+	float:left;
+	width:116px;
+}
+
+img.photo-right {
+	padding:9px;
+	border:1px solid #cccccc;
+	margin-right:0px;
+	margin-left:10px;
+	float:right;
+	width:316px;
+}
+
+img.photo {
+	padding:9px;
+	border:1px solid #cccccc;
+	margin-right:0px;
+	margin-left:10px;
+	width:45%;
+}
+
+img.photo-third {
+	padding:9px;
+	border:1px solid #cccccc;
+	margin-right:0px;
+	margin-left:10px;
+	width:30%;
+}
+
+img.photo-banner {
+	padding:9px;
+	border:1px solid #cccccc;
+	margin-right:0px;
+	margin-left:10px;
+	width:95%;
+	display:block;
+}
+
+/* The main contents */
+.content-primary .sponsors {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom : 10px;
+}
+
+.content-primary .center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content-primary .sponsors img {
+    width: 40%;
+    max-width: 400px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle
+}
+
+.content-primary .workshop-logo {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    width: 240px;
+}
+
+.content-primary .img {
+    width: 300px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle
+}
+
+img.schedule {
+    width: 90%;
+    //max-width: 800px;
+    margin-right: 3%;
+    padding-right: 3%;
+}
+
+.content-primary h1 {
+    font-size: 2.0em;
+    margin-top: 0.0em;
+    color: $site-colors-highlightB;
+    font-weight: bold;
+}
+
+.content-primary h2 {
+    font-size: 1.8em;
+    margin-top: 1.8em;
+    color: $site-colors-highlightB;
+}
+
+.content-primary > h2 {
+    font-size: 1.8em;
+    margin-top: 1.8em;
+    padding: 0.3em;
+    background: $site-colors-highlightB;
+    color: #ffffff;
+    font-weight: inherit;
+    letter-spacing:1px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    box-shadow:0 1px 4px rgba(0,0,0,.3);
+    margin-bottom: .75em;
+    text-shadow: none;
+}
+
+.content-primary h3, h4 {
+    font-size: 1.4em;
+    margin-top: 1.4em;
+    color: $site-colors-highlightB;
+}
+
+.content-primary > h3, h4 {
+    padding: 0.3em;
+    background: $site-colors-highlightB;
+    color: #ffffff;
+    font-weight: inherit;
+    letter-spacing:1px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    box-shadow:0 1px 4px rgba(0,0,0,.3);
+    text-shadow: none;
+}
+
+h3.ui-collapsible-heading, {
+	padding: 0em;
+	border-radius: 9px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.content-primary .tbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.content-primary .datetbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.content-primary .datetbl .ui-grid-a .ui-block-a {
+    width: 30%;
+    height: 100%;
+}
+
+.content-primary .datetbl .ui-grid-a .ui-block-b {
+    width: 70%;
+    height: 100%;
+}
+
+.content-primary .datetbl .ui-btn {
+    margin:      0px;
+    line-height: 1em;
+    text-align:  center;
+    font-size:   0.9em;
+    font-weight: 700;
+}
+
+.content-primary .ui-listview h2 {
+    margin: 0px;
+    color: #333333;
+    font-size: 0.85em;
+    font-weight: 700;
+    white-space: normal;
+    line-height: 1.2em;
+    padding-right: 0.25em;
+}
+
+.content-primary .ui-li-divider {
+    margin:      0px;
+    line-height: 1.2em;
+    background-color: $site-colors-highlight /*!important*/;
+    border-top-color: #307630;
+    border-left-color: #307630;
+    border-right-color: #307630;
+    color: $site-colors-hfont;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content-primary .ui-listview p {
+    margin:      0px;
+    line-height: 1.2em;
+    padding-right: 0.25em;
+    font-size:   0.85em;
+    font-weight: 500;
+    white-space: normal;
+}
+
+table {
+	text-align: center;
+	width: 100%;
+	text-shadow: none;
+	border-collapse: collapse;
+}
+
+table th {
+	// color: #ffffff;
+	// background-color: $site-colors-highlight;
+	padding: 10px;
+}
+
+table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+table tr {
+	line-height: 1.3em;
+}
+
+/* custom controls for registration page placeholder */
+
+.content-primary .registration .ui-grid-a .ui-block-a {
+    width: 40%;
+    height: 100%;
+}
+
+.content-primary .registration .ui-grid-a .ui-block-b {
+    width: 20%;
+    height: 100%;
+}
+
+.content-primary .paperlist .ui-grid-a .ui-block-a {
+    width: 100%;
+    height: 100%;
+}
+
+/* custom styles for the conference program menu */
+
+.content-primary .program .prog-header {
+    color: #ffffff !important;
+    background-color: $site-colors-highlight-darker !important;
+    border-color: $site-colors-highlight !important;
+}
+
+.content-primary .program .prog-header h3 {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-align: center !important;
+    font-weight: 600;
+    margin: 0.3em 0em;
+    background-color: none;
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+	box-shadow:0 0px 0px rgba(0,0,0,.3);
+}
+
+.content-primary .program .prog-no-filter {
+    display: block !important;
+}
+
+.ui-listview .ui-li-aside {
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    margin: 0;
+    text-align: right;
+}
+
+.ui-listview .ui-li-aside-item {
+    position: absolute;
+    top: 0.65em;
+    right: 1em;
+    margin: 0;
+    text-align: right;
+}
+
+.content-primary .program .button-paper {
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: $site-colors-highlight;
+    text-align: center;
+    width: auto;
+    margin: 0 0 6px 6px;
+    display: inline-block;
+}
+
+.content-primary .program .button-paper a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.content-primary .program hr.keynote-divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.content-primary .program .paper-navgroup {
+    padding: 0px;
+    margin: -20px -17px;
+    border-radius: 0px;
+}
+
+.content-primary .program .paper-header a {
+    font-weight: 600;
+    color: #000000;
+}
+
+.content-primary .ui-listview p.paper-header {
+    font-weight: 600 !important;
+}
+
+.content-primary .program .keynote-photo {
+    float: right;
+    margin: 0px 0px 15px 15px;
+    width: 120px;
+}
+
+.content-primary .program .prog-item {
+    padding: 0.5em 1.0em;
+}
+
+.content-primary .program .ui-bar-a {
+    padding: 0em 1.0em;
+    background-color: $site-colors-session-background;
+    border-color: #bbb;
+}
+
+.ui-bar-a a:link, .ui-bar-a a:visited, .ui-bar-a a:hover, .ui-bar-a a:active {
+    color: $site-colors-hfont;
+}
+
+.content-primary .program .ui-bar-a h3 {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
+    background-color: transparent;
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+}
+
+.content-primary .program .ui-bar-b {
+    padding: 0em 1.0em;
+    background-color: $site-colors-break-background;
+    border-color: #bbb;
+}
+
+.content-primary .program .ui-bar-b h3 {
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    background-color: transparent;
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+}
+
+.content-primary .program .prog-social {
+    padding: 0em 1.0em;
+    background-color: $site-colors-social-background;
+    border-color: #bbbbbb;
+}
+
+.content-primary .program .prog-social h3 {
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    background-color: transparent;
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.3);
+}
+
+/* miscelaneous controls (hotel page, roomshare, etc.) */
+
+.content-primary .hotel-header {
+    font-size: 1em;
+    color: #1A601A;
+    font-weight: 500;
+}
+
+.content-primary table.hotel th{
+    text-align:left;
+    vertical-align:top;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0px 0px 8px 0px;
+}
+
+.content-primary  table.hotel td{
+    text-align:left;
+    vertical-align:bottom;
+    border: none;
+    padding: 0px 0px 8px 0px;
+}
+
+.content-primary  table.hotel tr{
+    line-height:1.3em;
+}
+
+.content-primary table.hotel{
+    font-size:.9em;
+    padding-bottom:1em
+
+}
+
+.content-primary .roomshare {
+    background-color: #fdfdfd;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid navy;
+    margin: 20px;
+}
+
+/* button rouding */
+.roundall {
+    border-radius: 0.6em 0.6em 0.6em 0.6em !important;
+}
+
+.roundright {
+    border-radius: 0px 0.6em 0.6em 0px !important;
+}
+
+.roundleft {
+    border-radius: 0.6em 0px 0px 0.6em !important;
+}
+
+.listlast {
+    border-radius: 0px 0px 0.6em 0.6em !important;
+}
+
+.listfirst {
+    border-radius: 0.6em 0.6em 0px 0px !important;
+}
+
+.notlast {
+    border-radius: 0px !important;
+}
+
+.dl-button {
+    width : 55%;
+    margin-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    width: 95%;
+    max-width: 640px;
+    height: auto;
+}
+
+.socialbuttons {
+    background-color: #F6F6F6;
+    border-color: #BBB;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    padding-top: .65em;
+    padding-bottom: .5em;
+}
+
+.headlink {
+    text-decoration: none;
+    /* font-weight: 500 !important; */
+}
+
+.highlight {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+    width : 80%;
+    padding: 1rem;
+    border: 2px solid;
+    border-color: #FD9827;
+    background-color: #F6F6F6;
+}
+
+.highlighttext {
+    font-weight: 700;
+    color: #FF0000;
+}
+
+/* sponsors ticker tape, adapted from sigcomm 2012 code */
+
+.hidden {
+    display: none !important;
+}
+
+.logobar {
+    -webkit-box-shadow: inset 0 0 7px #000;
+    -moz-box-shadow: inset 0 0 7px #000;
+    box-shadow: inset 0 0 7px #000;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.logobar table td {
+	border: 0px solid #ccc;
+	padding: 10px;
+}
+
+a.button{
+    width:40%;
+    margin-left:auto;
+    margin-right:auto
+
+}
+
+/* Layout rules
+-----------------------------------------------------------------------------------------------------------*/
+
+/* Small screens */
+@media all and (max-width: 55em) {
+    .ui-content {
+        margin: 5px !important;
+        padding: 0.5em 5px 0.5em 0.5px;
+    }
+
+    .content-primary {
+        float: none;
+        width: 100%;
+        max-width: 55em;
+    }
+
+    .content-primary h1 {
+        font-size: 1.8em;
+        margin-top: 0em;
+    }
+    .content-primary h2 {
+        font-size: 1.4em;
+        margin-top: 0.5em;
+    }
+    .content-primary h3, h4 {
+        font-size: 1.2em;
+        margin-top: 0.5em;
+    }
+
+    .content-primary .sponsors img {
+        width: 75%;
+        max-width: 300px;
+        padding: 5px 10px 5px 10px;
+        vertical-align: middle;
+    }
+
+    .content-primary .img {
+        width: 85%;
+        max-width: 300px;
+        padding: 5px 10px 5px 10px;
+        vertical-align: middle
+    }
+
+    .leftnav {
+        float: none;
+        width: 100%;
+        max-width: 55em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .leftnav img {
+        display: none;
+    }
+
+    .ui-listview .ui-li-aside {
+        position: relative;
+        top: 0.3em;
+        bottom: 0.3em;
+        right: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/* Bigger screens */
+@media all and (min-width: 55em) {
+    .header {
+        display: none;
+    }
+
+    .content-primary {
+        float: right;
+        width: 61%;
+        //max-width: 800px;
+        margin-right: 3%;
+        padding-right: 3%;
+    }
+}
+
+/* Printing */
+@media print {
+    #menu-btn {
+        display: none;
+    }
+    #leftnav {
+        display: none;
+    }
+
+    .content-primary {
+        width: 90%;
+    }
+
+    .logobar {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .ui-content {
+        overflow-x: visible;
+    }
+}

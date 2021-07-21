@@ -1,0 +1,11 @@
+- name: Home
+  url: /
+
+# - name: Program Committee
+#   url: /tpc.html
+
+- name: Organizing Committee
+  url: /org-committee.html
+
+- name: Calls for Papers
+  url: /cfp.html

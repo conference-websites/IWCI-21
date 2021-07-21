@@ -1,0 +1,69 @@
+---
+layout: nil
+---
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} - {% endif %}{{ site.title }}" />
+    <meta property="og:image" content="{{ site.url }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    {% for og in page.og_tags %}
+    <meta property="{{ og.property }}" content="{{ og.content }}" />
+    {% endfor %}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Based on the ACM ICN 2021 web site" />
+
+    <title>{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+    {% comment %}
+
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/a681bc22fa.js"></script>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+
+    {% endcomment %}
+
+    {% asset site.css %}
+  </head>
+
+  <body>
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+	 chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7 ]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+      <div><h1>
+        <a href="{{ site.baseurl }}/">{{site.title}}</a>
+        </h1>
+      </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+
+          {{ content }}
+        </div><!-- content-primary -->
+
+        {% include menu.html %}
+      </div> <!-- content -->
+
+      {% if page.url != "/supporters.html" %}
+        <div class="logobar" data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c"></div>
+      {% endif %}
+
+    </div> <!-- page -->
+
+    {% include google-analytics.html %}
+
+    {% asset site.js %}
+  </body>
+</html>

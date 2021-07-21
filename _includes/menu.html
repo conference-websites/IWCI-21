@@ -1,0 +1,36 @@
+<div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <h1>
+  <a href="{{ site.baseurl }}/">{{site.title}}</a>
+  </h1>
+  
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    {% for item in site.data.navbar %}
+      {% if item.submenu == nil %}
+        {% if item.url == page.url %}{% assign active = 'navselected' %}
+        {% else %}{% assign active = nil %}{% endif %}
+        <li class="{% if forloop.first != true and forloop.last != true %}notlast{% endif %} {{ active }} {% if active == nil %}{{ item.highlight }}{% endif %}" data-icon="false">
+          <a href="{% if item.url contains "http://" or item.url contains "https://" %}{% else %}{{ site.baseurl }}{% endif %}{{ item.url }}">{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</a>
+        </li>
+      {% else %}
+        {% if item.name == page.group %}{% assign collapsed = 'data-collapsed="false"' %}
+        {% else %}{% assign collapsed = nil %}{% endif %}
+        {% if item.name == "Tutorials" %}{% assign collapsed = 'data-collapsed="false"' %}{% endif %}
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" {{ collapsed }} class="navgroup">
+          <h4>{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</h4>
+          <ul data-role="listview" data-inset="false">
+            {% for subitem in item.submenu %}
+              {% if subitem.url == page.url %}{% assign active = 'navselected' %}
+              {% else %}{% assign active = nil %}{% endif %}
+              <li class="subnav {{ active }}" data-icon="false">
+                <a href="{% if subitem.url contains "http://" or subitem.url contains "https://" %}{% else %}{{ site.baseurl }}{% endif %}{{ subitem.url }}">{% if subitem.icon %}<i class="fa {{ subitem.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ subitem.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}  
+    {% endfor %}
+  </ul>
+</div>
+

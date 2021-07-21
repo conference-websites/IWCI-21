@@ -1,0 +1,45 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "jquery.mobile-1.4.5";
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+
+$site-font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$site-font-size-base: 1em !default;
+$site-headings-font-family:    inherit !default;
+$site-headings-font-weight:    500 !default;
+
+@import "site-base";
+
+$brand-primary:         #00872B !default;
+$brand-success:         #00872B !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 70%) !default;   // #999
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+// Customize colors  if needed
+
+$site-colors-hfont: #ffffff;
+$site-colors-highlight: #56606C;
+$site-colors-highlight-darker: #56606C;
+$site-colors-highlightB: #096824;
+
+
+
+$site-colors-break-background: #d1d1d1;
+$site-colors-session-background: #0063A9;
+$site-colors-social-background: #ffbe00;
+
+@import "callouts";
+
+@import "site-customizations";

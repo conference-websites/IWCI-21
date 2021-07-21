@@ -1,0 +1,28 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-registration:
+  track: main
+  info: Paper Registration Deadline (Long and Short)
+  date: "TBD"
+  important: true
+main-submission:
+  track: main
+  info: Paper Submission Deadline (Long and Short)
+  date: "TBS"
+  important: true
+main-notification:
+  track: main
+  info: Acceptance Notification
+  date: "TBD"
+  important: true
+main-due:
+  track: main
+  info: Camera Ready Due
+  date: "DTB"
+  important: true
