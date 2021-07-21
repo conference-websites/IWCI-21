@@ -6,23 +6,18 @@
 
 # All listed dates will appear in the specified order
 
-main-registration:
-  track: main
-  info: Paper Registration Deadline (Long and Short)
-  date: "TBD"
-  important: true
 main-submission:
   track: main
-  info: Paper Submission Deadline (Long and Short)
-  date: "TBS"
+  info: Paper Submission Deadline
+  date: "Friday, 17 September, 2021"
   important: true
 main-notification:
   track: main
   info: Acceptance Notification
-  date: "TBD"
+  date: "Monday, 18 October, 2021"
   important: true
 main-due:
   track: main
   info: Camera Ready Due
-  date: "DTB"
+  date: "Monday, 25 October, 2021"
   important: true
