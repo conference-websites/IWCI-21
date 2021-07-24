@@ -8,7 +8,7 @@ og_tags:
 
 ## Welcome to CoNEXT 2021 Interdisciplinary Workshop on (de)Centralization in the Internet (IWCI)!
 
-The organizing committee is delighted to invite you to CoNEXT 2021 IWCI workshop to be held virtually on ?.
+The organizing committee is delighted to invite you to [CoNEXT 2021](https://conferences.sigcomm.org/co-next/2021) IWCI workshop to be held virtually on Tuesday, 7 December, 2021.
 
 Our rapidly digitizing world is undergoing a transformative change on a scale of the industrial revolution. The digital platform has increased the opportunities for ever larger actors to attain economies of scale that are inaccessible to all but the very largest. The distortions created by these small number of dominant digital giants in the business and technology landscape has resulted not only in unparalleled efficiencies of the production of goods and services but also with the downside risks of technology monocultures, monopolies, and critical points of vulnerability. 
 

@@ -21,3 +21,8 @@ main-due:
   info: Camera Ready Due
   date: "Monday, 25 October, 2021"
   important: true
+main-due:
+  track: main
+  info: Workshop date
+  date: "Tuesday, 7 December, 2021"
+  important: true
