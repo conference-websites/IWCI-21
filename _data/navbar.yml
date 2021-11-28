@@ -4,6 +4,9 @@
 # - name: Program Committee
 #   url: /tpc.html
 
+- name: Program
+  url: /program.html
+
 - name: Organizing Committee
   url: /org-committee.html
 
