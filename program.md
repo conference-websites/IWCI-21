@@ -18,15 +18,9 @@ All times are CET, i.e., UTC+1.
 <br>
 Henning Schulzrinne (*Columbia University*)
 
-* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493690">Designing Hydra with Centralized versus Decentralized Control: A Comparative Study</a>** 
+* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493791">Is a "Decentralized Autonomous Organization" a Panopticon?: Algorithmic governance as creating and mitigating vulnerabilities in DAOs</a>**
 <br>
-Siqi Liu (*UCLA*),
-Varun Patil (*UCLA*),
-Tianyuan Yu (*UCLA*),
-Alexander Afanasyev (*Florida International University*),
-Frank Alex Feltus (*Clemson University*),
-Susmit Shannigrahi (*Tennessee Technological University*) ,
-Lixia Zhang (*UCLA*)
+Kelsie Nabben (*RMIT University*)
 
 * **<a href="https://dl.acm.org/doi/10.1145/3488663.3493688">Internet flattening and consolidation considered useful (for deploying new Internet architecture)</a>** 
 <br>
@@ -43,9 +37,15 @@ Atsushi Tagami (*KDDI Research, Inc.*)
 
 ### Session 2 (4:30pm - 6:00pm)
 
-* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493791">Is a "Decentralized Autonomous Organization" a Panopticon?: Algorithmic governance as creating and mitigating vulnerabilities in DAOs</a>**
+* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493690">Designing Hydra with Centralized versus Decentralized Control: A Comparative Study</a>** 
 <br>
-Kelsie Nabben (*RMIT University*)
+Siqi Liu (*UCLA*),
+Varun Patil (*UCLA*),
+Tianyuan Yu (*UCLA*),
+Alexander Afanasyev (*Florida International University*),
+Frank Alex Feltus (*Clemson University*),
+Susmit Shannigrahi (*Tennessee Technological University*) ,
+Lixia Zhang (*UCLA*)
 
 * **<a href="https://dl.acm.org/doi/10.1145/3488663.3493687">Distributed Ledgers for Distributed Edge: Are we there yet?</a>**
 <br>
