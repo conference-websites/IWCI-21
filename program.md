@@ -22,22 +22,40 @@ Henning Schulzrinne (*Columbia University*)
 <br>
 Kelsie Nabben (*RMIT University*)
 
-* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493688">Internet flattening and consolidation considered useful (for deploying new Internet architecture)</a>** 
+* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493688">Internet flattening and consolidation considered useful (for deploying new Internet architecture)</a>**
 <br>
 Kazuaki Ueda (*KDDI Research, Inc.*),
-Atsushi Tagami (*KDDI Research, Inc.*) 
+Atsushi Tagami (*KDDI Research, Inc.*)
 
 ### Break (2:00pm - 2:30pm)
 
 ### Panel (2:30pm - 4:00pm)
 
-* TBA
+* Make Internet Decentralized Again. Path Forward.
+<br>
+Panelists:
+- Geoff Huston (*APNIC*)
+- Henning Schulzrinne (*Columbia University*)
+- Lixia Zhang (*UCLA*)
+
+The development of the TCP/IP architecture 40 years ago led to an explosive growth of the global internet in the following 20 years, where any host could talk to any other host.
+However, over the last  decade, the global Internet has reached a significant level of service consolidation and centralization.
+A small number of cyber giants collectively hold the control over information discovery, communication, social interactions, and all other major Internet-based applications.
+Such centralization brought unparalleled efficiency of the production of goods and services, together with the downside risks of technology monocultures, monopolies, loss of user privacy, large scale vulnerability, and most of all, the concentration of control power.
+
+The goal of this panel is to explore our path forward to make the Internet decentralized again.
+We plan to examine this question from multiple perspectives:
+
+- How the Internet got from where it was to where it is today, i.e., which technological, economical, and/or regulation considerations moved us towards centralization?
+- What solutions have been explored in mitigating Internet centralization (peer-to-peer networking? blockchains? information-centric networking? what else?)
+- What are the potential forces that may steer Internet away from centralization?
+
 
 ### Break (4:00pm - 4:30pm)
 
 ### Session 2 (4:30pm - 6:00pm)
 
-* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493690">Designing Hydra with Centralized versus Decentralized Control: A Comparative Study</a>** 
+* **<a href="https://dl.acm.org/doi/10.1145/3488663.3493690">Designing Hydra with Centralized versus Decentralized Control: A Comparative Study</a>**
 <br>
 Siqi Liu (*UCLA*),
 Varun Patil (*UCLA*),
@@ -65,6 +83,3 @@ Pengyuan Zhou (*University of Science and Technology of China*),
 Walter Wong (*University of Helsinki*),
 Andreas Johnsson (*Uppsala University*),
 Jussi Kangasharju (*University of Helsinki*)
-
-
-
