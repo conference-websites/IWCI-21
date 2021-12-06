@@ -31,12 +31,15 @@ Atsushi Tagami (*KDDI Research, Inc.*)
 
 ### Panel (2:30pm - 4:00pm)
 
-* Make Internet Decentralized Again. Path Forward.
-<br>
+* Panel: **"Make Internet Decentralized Again. Path Forward."**
+
 Panelists:
 - Geoff Huston (*APNIC*)
 - Henning Schulzrinne (*Columbia University*)
 - Lixia Zhang (*UCLA*)
+
+Moderator:
+- Alex Afanasyev (*FIU*)
 
 The development of the TCP/IP architecture 40 years ago led to an explosive growth of the global internet in the following 20 years, where any host could talk to any other host.
 However, over the last  decade, the global Internet has reached a significant level of service consolidation and centralization.
