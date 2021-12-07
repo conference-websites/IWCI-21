@@ -37,7 +37,7 @@ Panelists:
 - Geoff Huston (*APNIC*)
 - Henning Schulzrinne (*Columbia University*)
 - Lixia Zhang (*UCLA*)
-- John Adler (**Celestia Lab**)
+- John Adler (*Celestia Lab*)
 
 Moderator:
 - Alex Afanasyev (*FIU*)
